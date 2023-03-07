@@ -1,5 +1,5 @@
 # UnzipEncryptedPython
-- Unzip the password protected files useing azure function app and python as run stack
+## Unzip the password protected files useing azure function app and python as run stack
 
 - Create a new project in VS Code, connect VS Code to Azure subscription using Azure Extension and credentials.
 

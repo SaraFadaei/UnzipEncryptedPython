@@ -10,7 +10,7 @@ import pyzipper
 
 storageAccountConnstr = "DefaultEndpointsProtocol=https;AccountName=stdataplatformddata;AccountKey=EyXLt2r/9dQnvlm9oIeBQBXt6UsLAdJVy6gYypKacJYHHmhe7Cj0JPdBBxbkTaadpIuk3Y8TVCt8+AStMv9f7w==;EndpointSuffix=core.windows.net"
 container = "data-hub/powercurve/preprod/zip"
-destcontainer = "data-hub/powercurve/preprod/unzip"
+destcontainer = "raw/POWERCURVE/PreProd/"
 
 
 

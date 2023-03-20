@@ -7,10 +7,11 @@ from zipfile import ZipFile
 import tempfile
 import os
 import pyzipper
+import datetime
 
 storageAccountConnstr = "DefaultEndpointsProtocol=https;AccountName=stdataplatformddata;AccountKey=EyXLt2r/9dQnvlm9oIeBQBXt6UsLAdJVy6gYypKacJYHHmhe7Cj0JPdBBxbkTaadpIuk3Y8TVCt8+AStMv9f7w==;EndpointSuffix=core.windows.net"
-container = "data-hub/powercurve/preprod/zip"
-destcontainer = "raw/POWERCURVE/PreProd/"
+container = "pre-landing/powercurve/PreProd/"+datetime.datetime.now().strftime("%Y/%m/%d")
+destcontainer = "transformation/powercurve/PreProd/unzip/"+datetime.datetime.now().strftime("%Y/%m/%d")
 
 
 
